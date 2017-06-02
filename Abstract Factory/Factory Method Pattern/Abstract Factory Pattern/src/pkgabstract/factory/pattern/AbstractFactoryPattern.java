@@ -27,8 +27,7 @@ public class AbstractFactoryPattern {
         System.err.println("1. HBL\n2. Habib\n3. UBL");
         String bankNumber = br.readLine();
 
-        System.out.println("\n");
-        System.out.print("Enter the type of loan");
+        System.out.println("Enter the type of loan");
         System.err.println("1. Home loan.\n2. Educational Loan.\n3. Business loan.");
         String loanName = br.readLine();
 
